@@ -14,7 +14,7 @@ export type UserType = {
 };
 
 type UserListPropsType = {
-  users: UserType[]; // ПО МОЕМУ ЧЕГО-ТО НЕ ХВАТАЕТ...
+  users: Array<UserType>; // ПО МОЕМУ ЧЕГО-ТО НЕ  ХВАТАЕТ...
 };
 
 export const UserList: React.FC<UserListPropsType> = (props) => {
